@@ -15,8 +15,8 @@ const Navbar = () => {
   return (
     <div className="flex items-center justify-between p-3">
       <a href="/">
-        <h1 className=" text-3xl text-main-yellow left- relative">
-          &#123;FinSweet
+        <h1 className=" text-3xl text-main-yellow relative -ml-1">
+          &#123;<span className="font-bold">FinSweet</span>
         </h1>
       </a>
       <ul className="hidden justify-between md:flex">

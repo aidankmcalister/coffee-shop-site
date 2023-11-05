@@ -7,7 +7,9 @@ const Sidebar = ({ navbarLinks }) => {
 
   return (
     <Card className="z-10 p-2 top-2 left-2 right-2 bg-gray-900 absolute animate-fade-left animate-duration-200">
-      <h1 className="text-3xl text-main-yellow">&#123;FinSweet</h1>
+      <h1 className="text-3xl text-main-yellow">
+        &#123;<span className="font-bold">FinSweet</span>
+      </h1>
       <List>
         {navbarLinks.map((navbarLink, index) => (
           <a href={navbarLink.link} key={`small-${index}`}>

@@ -14,8 +14,8 @@ import {
   PaperAirplaneIcon as OutlinePaperAirplaneIcon,
   BuildingStorefrontIcon as OutlineStoreFrontIcon,
 } from "@heroicons/react/24/outline";
-import SolidMenuIcon from "../../assets/icons/menuIconSolid.svg?react";
-import OutlineMenuIcon from "../../assets/icons/menuIconOutline.svg?react";
+
+import { SocialIcon } from "react-social-icons";
 
 export const navbarLinks = [
   {
@@ -56,4 +56,11 @@ export const navbarLinks = [
     outlineIcon: <OutlinePaperAirplaneIcon color="#fff" />,
     link: "/contact",
   },
+];
+
+export const socials = [
+  { url: "https://www.facebook.com/thatsfinsweet/" },
+  { url: "https://www.instagram.com/thatsfinsweet/?hl=en" },
+  { url: "https://www.linkedin.com/company/finsweet/" },
+  { url: "https://www.twitter.com/thatsfinsweet" },
 ];
