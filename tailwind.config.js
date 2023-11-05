@@ -13,5 +13,5 @@ export default withMT({
       playfair: "var(--playfair)",
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animated")],
 });
