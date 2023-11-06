@@ -14,8 +14,12 @@ import {
   PaperAirplaneIcon as OutlinePaperAirplaneIcon,
   BuildingStorefrontIcon as OutlineStoreFrontIcon,
 } from "@heroicons/react/24/outline";
-
-import { SocialIcon } from "react-social-icons";
+import cakeIcon from "../../assets/icons/cakeIcon.svg";
+import coffeeIcon from "../../assets/icons/coffeeIcon.svg";
+import fastFoodIcon from "../../assets/icons/fastFoodIcon.svg";
+import cocktailIcon from "../../assets/icons/cocktailIcon.svg";
+import grillIcon from "../../assets/icons/grillIcon.svg";
+import snacksIcon from "../../assets/icons/snacksIcon.svg";
 
 export const navbarLinks = [
   {
@@ -63,4 +67,64 @@ export const socials = [
   { url: "https://www.instagram.com/thatsfinsweet/?hl=en" },
   { url: "https://www.linkedin.com/company/finsweet/" },
   { url: "https://www.twitter.com/thatsfinsweet" },
+];
+
+export const details = [
+  {
+    stats: "10+ People",
+    subtext: "We are a Small Team",
+    paragraph:
+      "At our cozy coffee shop, we're a small but passionate team dedicated to crafting the perfect brew for our community.",
+  },
+  {
+    stats: "2014",
+    subtext: "Unrivaled Coffee",
+    paragraph:
+      "Since 2014, we've been perfecting the art of creating the finest foam to top off your favorite coffee drinks.",
+  },
+  {
+    stats: "200k",
+    subtext: "We've served",
+    paragraph:
+      "With over 200,000 happy customers served, we've been turning coffee enthusiasts into loyal fans, one cup at a time.",
+  },
+];
+
+export const ctaDetails = [
+  {
+    icon: cakeIcon,
+    title: "Quafe Cake",
+    description:
+      "Indulge in our heavenly Quafe Cakes that melt in your mouth, a sweet delight you can't resist.",
+  },
+  {
+    icon: coffeeIcon,
+    title: "Coffee",
+    description:
+      "Experience coffee perfection with our handcrafted brews, brewed to elevate your coffee experience.",
+  },
+  {
+    icon: fastFoodIcon,
+    title: "Fast Food",
+    description:
+      "Satisfy your cravings with our delicious fast food options, perfect for a quick and tasty meal.",
+  },
+  {
+    icon: cocktailIcon,
+    title: "Cocktails",
+    description:
+      "Unwind and enjoy our signature cocktails, expertly mixed to tantalize your taste buds.",
+  },
+  {
+    icon: grillIcon,
+    title: "Grill",
+    description:
+      "Delight in the sizzle and flavor of our grilled dishes, a feast for meat lovers and more.",
+  },
+  {
+    icon: snacksIcon,
+    title: "Snacks",
+    description:
+      "Our delightful snacks are perfect for munching, whether you're here for coffee or cocktails.",
+  },
 ];

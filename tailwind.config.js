@@ -7,6 +7,8 @@ export default withMT({
     extend: {},
     colors: {
       "main-yellow": "var(--main-yellow)",
+      "main-gray": "var(--main-gray)",
+      "secondary-gray": "var(--secondary-gray)",
     },
     fontFamily: {
       poppins: "var(--poppins)",
