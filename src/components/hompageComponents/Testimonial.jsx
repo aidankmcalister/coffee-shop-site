@@ -16,7 +16,7 @@ const Testimonial = () => {
           <Avatar src={avatar} alt="Avatar" className="mr-3" />
           <div>
             <p className="text-gray-400 text-lg font-bold">Finn Möller</p>
-            <p className="text-gray-600 -mt-1">Berlin, Germany</p>
+            <p className="text-gray-600 -mt-1">New York, New York</p>
           </div>
         </div>
       </div>

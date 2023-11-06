@@ -28,9 +28,11 @@ const Hero = () => {
           Sunday to Saturday | 09:00 AM to 11:00 PM
         </p>
         <h1 className="font-playfair text-xl mt-4">Location</h1>
-        <p className="text-gray-600">Master canteen, BBSR , Odisha 752054</p>
+        <p className="text-gray-600">
+          Street - 127, New York, United States 546544
+        </p>
         <h1 className="font-playfair text-xl mt-4">Call Us</h1>
-        <p className="text-gray-600">+1 977-646-2441</p>
+        <p className="text-gray-600">+1 &#40;123&#41; 456-7890</p>
       </div>
       <img
         className="rounded-2xl mt-2 shadow-lg lg:w-1/2 w-auto"

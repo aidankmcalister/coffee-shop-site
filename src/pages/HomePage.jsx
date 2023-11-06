@@ -6,6 +6,7 @@ import CTA from "../components/hompageComponents/CTA";
 import OurMenu from "../components/hompageComponents/OurMenu";
 import Testimonial from "../components/hompageComponents/Testimonial";
 import BlogCards from "../components/hompageComponents/BlogCards";
+import MapCard from "../components/hompageComponents/MapCard";
 
 const HomePage = () => {
   return (
@@ -16,6 +17,7 @@ const HomePage = () => {
       <OurMenu />
       <Testimonial />
       <BlogCards />
+      <MapCard />
     </div>
   );
 };
