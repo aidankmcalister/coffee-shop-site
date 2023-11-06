@@ -8,6 +8,7 @@ import {
   Button,
 } from "@material-tailwind/react";
 import { ArrowLongRightIcon } from "@heroicons/react/24/solid";
+import { Link } from "react-router-dom";
 
 const OurMenu = () => {
   return (
@@ -43,7 +44,7 @@ const OurMenu = () => {
             >
               <CardHeader shadow={false} className="h-60 w-full border-none">
                 <img
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover border-none"
                   src={item.img}
                   alt={item.title}
                 />
@@ -56,22 +57,22 @@ const OurMenu = () => {
                 >
                   {item.title}
                 </Typography>
-                <Typography className="text-center text-white font-bold">
+                <Typography className="text-center text-white font-bold flex items-center">
                   {item.price}
                 </Typography>
               </CardBody>
             </Card>
           ))}
-          <a href="/menu" className="inline-block">
-            <Button
-              style={{ textTransform: "none" }}
-              className="rounded-sm text-main-gray bg-main-yellow flex items-center p-4 px-5 mt-2 text-lg"
-            >
-              View Menu
-              <ArrowLongRightIcon className="h-5 w-5 ml-1" />
-            </Button>
-          </a>
         </div>
+        <Link to="/menu" className="mt-3 inline-block cursor-pointer">
+          <Button
+            style={{ textTransform: "none" }}
+            className=" rounded-xl text-main-gray bg-main-yellow flex items-center p-4 px-5 text-lg"
+          >
+            View Menu
+            <ArrowLongRightIcon className="h-5 w-5 ml-1" />
+          </Button>
+        </Link>
       </div>
     </div>
   );

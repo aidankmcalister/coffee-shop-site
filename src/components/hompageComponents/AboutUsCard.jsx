@@ -23,13 +23,13 @@ const AboutUsCard = () => {
   }
 
   return (
-    <div className="flex flex-col xl:flex-row items-center md:mx-auto m-4 lg:max-w-[80%] md:max-w-[80%] my-10">
-      <div className=" xl:w-[100%] mr-14">
+    <div className=" flex flex-col xl:flex-row items-center md:mx-auto m-4 lg:max-w-[80%] md:max-w-[80%] my-10">
+      <div className=" xl:w-[100%] xl:mr-0 ">
         <div className="w-full flex items-center">
           <h5 className="font-playfair text-main-yellow">KNOW MORE ABOUT US</h5>
           <hr className="ml-2 w-12" />
         </div>
-        <div className="">
+        <div className="w-full">
           <h1 className="font-playfair text-4xl font-bold my">
             We source sustainable & <br /> line caught Foods
           </h1>
@@ -39,7 +39,7 @@ const AboutUsCard = () => {
             Eligendi officia, iste animi suscipit, a vel nihil quis vitae, harum
             voluptate atque!
           </p>
-          <div className="flex flex-col lg:flex-row">
+          <div className="flex flex-col lg:flex-row justify-center">
             {details.map((detail, index) => (
               <div
                 key={`detail-${index}`}
@@ -62,14 +62,14 @@ const AboutUsCard = () => {
           </div>
         </div>
       </div>
-      <div className="w-full flex flex-row my-2">
-        <div className="w-1/2 aspect-[12/25] flex justify-center">
+      <div className=" w-[80%] flex flex-row my-2 justify-end">
+        <div className="w-1/2 lg:w-2/5  aspect-[12/25] flex justify-center">
           <img
             src={knowMoreImage1}
             className="self-start rounded-xl shadow-lg h-[80%] xl:h-full xl:mr-5 xl:mb-24"
           />
         </div>
-        <div className="w-1/2 aspect-[12/25] flex justify-center">
+        <div className="w-1/2 lg:w-2/5 aspect-[12/25] flex justify-center">
           <img
             src={knowMoreImage2}
             className="rounded-xl shadow-lg h-[80%] self-end xl:h-full xl:ml-5 xl:mt-24"

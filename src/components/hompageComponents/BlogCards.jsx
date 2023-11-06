@@ -17,7 +17,7 @@ const BlogCards = () => {
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
         {blogLatestPosts.map((blogPost, index) => (
           <Link to="/blog" key={`menuPreview-${index}`}>
-            <Card className="mt-12 max-w-md md:max-w-xl flex items-center bg-gray-900 bg-opacity-30">
+            <Card className="mt-12 max-w-md md:max-w-xl flex items-center bg-gray-900 bg-opacity-30 h-[93%]">
               <CardHeader shadow={false} className="h-60 w-full">
                 <img
                   className="w-full h-full object-cover border-none"
