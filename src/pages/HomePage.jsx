@@ -4,6 +4,7 @@ import Hero from "../components/hompageComponents/Hero";
 import AboutUsCard from "../components/hompageComponents/AboutUsCard";
 import CTA from "../components/hompageComponents/CTA";
 import OurMenu from "../components/hompageComponents/OurMenu";
+import Testimonial from "../components/hompageComponents/Testimonial";
 
 const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ const HomePage = () => {
       <AboutUsCard />
       <CTA />
       <OurMenu />
+      <Testimonial />
     </div>
   );
 };
