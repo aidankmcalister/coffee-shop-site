@@ -20,6 +20,12 @@ import fastFoodIcon from "../../assets/icons/fastFoodIcon.svg";
 import cocktailIcon from "../../assets/icons/cocktailIcon.svg";
 import grillIcon from "../../assets/icons/grillIcon.svg";
 import snacksIcon from "../../assets/icons/snacksIcon.svg";
+import coffeeImg from "../../assets/imgs/coffee.jpg";
+import cupcakeImg from "../../assets/imgs/cupcake.jpg";
+import friesImg from "../../assets/imgs/fries.jpg";
+import hotchocoImg from "../../assets/imgs/hotchocolate.jpg";
+import sandwichImg from "../../assets/imgs/sandwhich.jpg";
+import soupImg from "../../assets/imgs/soup.jpg";
 
 export const navbarLinks = [
   {
@@ -126,5 +132,38 @@ export const ctaDetails = [
     title: "Snacks",
     description:
       "Our delightful snacks are perfect for munching, whether you're here for coffee or cocktails.",
+  },
+];
+
+export const menuPreview = [
+  {
+    title: "Coffee",
+    img: coffeeImg,
+    price: "$2.50",
+  },
+  {
+    title: "Hot Chocolate",
+    img: hotchocoImg,
+    price: "$3.00",
+  },
+  {
+    title: "Sandwich",
+    img: sandwichImg,
+    price: "$6.50",
+  },
+  {
+    title: "French Fries",
+    img: friesImg,
+    price: "$4.00",
+  },
+  {
+    title: "Soup",
+    img: soupImg,
+    price: "$5.50",
+  },
+  {
+    title: "Cupcake",
+    img: cupcakeImg,
+    price: "$2.00",
   },
 ];
