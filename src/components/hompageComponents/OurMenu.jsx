@@ -20,7 +20,7 @@ const OurMenu = () => {
         <div className="md:flex">
           <div>
             <h1 className="font-playfair text-4xl font-bold">
-              Discover our menu chart{" "}
+              Discover our menu chart
             </h1>
             <p className="hidden md:block font-playfair mt-10 text-lg font-bold text-blue-100">
               Most Popular Picks

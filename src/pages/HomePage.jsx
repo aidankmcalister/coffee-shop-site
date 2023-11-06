@@ -5,6 +5,7 @@ import AboutUsCard from "../components/hompageComponents/AboutUsCard";
 import CTA from "../components/hompageComponents/CTA";
 import OurMenu from "../components/hompageComponents/OurMenu";
 import Testimonial from "../components/hompageComponents/Testimonial";
+import BlogCards from "../components/hompageComponents/BlogCards";
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
       <CTA />
       <OurMenu />
       <Testimonial />
+      <BlogCards />
     </div>
   );
 };

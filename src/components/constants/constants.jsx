@@ -26,6 +26,9 @@ import friesImg from "../../assets/imgs/fries.jpg";
 import hotchocoImg from "../../assets/imgs/hotchocolate.jpg";
 import sandwichImg from "../../assets/imgs/sandwhich.jpg";
 import soupImg from "../../assets/imgs/soup.jpg";
+import coffeeSerenity from "../../assets/imgs/coffeeSerenity.jpg";
+import coffeeBeans from "../../assets/imgs/coffeeBeans.jpg";
+import coffeeDate from "../../assets/imgs/coffeeDate.jpg";
 
 export const navbarLinks = [
   {
@@ -165,5 +168,29 @@ export const menuPreview = [
     title: "Cupcake",
     img: cupcakeImg,
     price: "$2.00",
+  },
+];
+
+export const blogLatestPosts = [
+  {
+    date: "October 15, 2023",
+    title: "A Sip of Serenity",
+    paragraph:
+      "I took a moment to enjoy the serenity of our coffee shop, sipping on a warm brew while soaking in the soothing ambiance.",
+    img: coffeeSerenity,
+  },
+  {
+    date: "November 8, 2023",
+    title: "Bean Magic Unveiled",
+    paragraph:
+      "Each cup at our coffee shop is a journey through flavors, revealing the magic that lies within every perfectly roasted bean.",
+    img: coffeeBeans,
+  },
+  {
+    date: "December 21, 2023",
+    title: "Coffee and Connection",
+    paragraph:
+      "In our coffee shop, I found not just great brews but also cherished moments, where conversations flowed as easily as our espresso.",
+    img: coffeeDate,
   },
 ];
