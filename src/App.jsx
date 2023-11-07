@@ -18,12 +18,12 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/menu" element={<MenuPage />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/ourstory" element={<OurStoryPage />} />
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/bloginner" element={<BlogInnerPage />} />
-          <Route path="/ourstory" element={<OurStoryPage />} />
-          <Route path="/menu" element={<MenuPage />} />
+          <Route path="/contact" element={<ContactPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -29,6 +29,15 @@ import soupImg from "../../assets/imgs/soup.jpg";
 import coffeeSerenity from "../../assets/imgs/coffeeSerenity.jpg";
 import coffeeBeans from "../../assets/imgs/coffeeBeans.jpg";
 import coffeeDate from "../../assets/imgs/coffeeDate.jpg";
+import espressoImg from "../../assets/imgs/espressoImg.jpg";
+import pizzaImg from "../../assets/imgs/pizzaImg.jpg";
+import tacoImg from "../../assets/imgs/tacoImg.jpg";
+import icedTeaImg from "../../assets/imgs/iceTeaImg.jpg";
+import burgerImg from "../../assets/imgs/burgerImg.jpg";
+import pastaImg from "../../assets/imgs/pastaImg.jpg";
+import saladImg from "../../assets/imgs/saladImg.jpg";
+import muffinImg from "../../assets/imgs/muffinImg.jpg";
+import smoothieImg from "../../assets/imgs/smoothieImg.jpg";
 
 export const navbarLinks = [
   {
@@ -168,6 +177,99 @@ export const menuPreview = [
     title: "Cupcake",
     img: cupcakeImg,
     price: "$2.00",
+  },
+];
+
+export const menu = [
+  {
+    title: "Coffee",
+    img: coffeeImg,
+    price: "$2.50",
+    category: "Drinks",
+  },
+  {
+    title: "Hot Chocolate",
+    img: hotchocoImg,
+    price: "$3.00",
+    category: "Drinks",
+  },
+  {
+    title: "Sandwich",
+    img: sandwichImg,
+    price: "$6.50",
+    category: "Lunch",
+  },
+  {
+    title: "French Fries",
+    img: friesImg,
+    price: "$4.00",
+    category: "Appetizers",
+  },
+  {
+    title: "Soup",
+    img: soupImg,
+    price: "$5.50",
+    category: "Lunch",
+  },
+  {
+    title: "Cupcake",
+    img: cupcakeImg,
+    price: "$2.00",
+    category: "Desserts",
+  },
+  {
+    title: "Espresso",
+    img: espressoImg,
+    price: "$2.75",
+    category: "Drinks",
+  },
+  {
+    title: "Salad",
+    img: saladImg,
+    price: "$7.50",
+    category: "Lunch",
+  },
+  {
+    title: "Burger",
+    img: burgerImg,
+    price: "$8.00",
+    category: "Dinner",
+  },
+  {
+    title: "Muffin",
+    img: muffinImg,
+    price: "$2.25",
+    category: "Desserts",
+  },
+  {
+    title: "Iced Tea",
+    img: icedTeaImg,
+    price: "$2.75",
+    category: "Drinks",
+  },
+  {
+    title: "Pizza",
+    img: pizzaImg,
+    price: "$9.50",
+    category: "Dinner",
+  },
+  {
+    title: "Pasta",
+    img: pastaImg,
+    price: "$8.00",
+    category: "Lunch",
+  },
+  {
+    title: "Smoothie",
+    img: smoothieImg,
+    price: "$4.50",
+    category: "Drinks",
+  },
+  {
+    title: "Taco",
+    img: tacoImg,
+    price: "$5.00",
+    category: "Dinner",
   },
 ];
 
