@@ -47,16 +47,16 @@ export const navbarLinks = [
     link: "/",
   },
   {
-    label: "About Us",
-    solidIcon: <SolidUserIcon color="#ffb577" />,
-    outlineIcon: <OutlineUserIcon color="#fff" />,
-    link: "/about",
-  },
-  {
     label: "Menu",
     solidIcon: <SolidNewspaperIcon color="#ffb577" />,
     outlineIcon: <OutlineNewspaperIcon color="#fff" />,
     link: "/menu",
+  },
+  {
+    label: "About Us",
+    solidIcon: <SolidUserIcon color="#ffb577" />,
+    outlineIcon: <OutlineUserIcon color="#fff" />,
+    link: "/about",
   },
   {
     label: "Our Story",
@@ -294,5 +294,28 @@ export const blogLatestPosts = [
     paragraph:
       "In our coffee shop, I found not just great brews but also cherished moments, where conversations flowed as easily as our espresso.",
     img: coffeeDate,
+  },
+];
+
+export const timelineData = [
+  {
+    year: 2014,
+    title: "Grand Opening",
+    description: "The {FinSweet coffee shop opened its doors in 2014.",
+  },
+  {
+    year: 2017,
+    title: "Community Events",
+    description: "Started hosting community events and gatherings.",
+  },
+  {
+    year: 2019,
+    title: "Menu Expansion",
+    description: "Expanded the menu with new and delicious offerings.",
+  },
+  {
+    year: 2023,
+    title: "Sustainability Efforts",
+    description: "Focused on sustainability and eco-friendly practices.",
   },
 ];
