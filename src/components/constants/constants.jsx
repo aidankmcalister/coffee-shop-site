@@ -1,3 +1,4 @@
+import { AvatarGenerator } from "random-avatar-generator";
 import {
   HomeIcon as SolidHomeIcon,
   UserIcon as SolidUserIcon,
@@ -38,6 +39,14 @@ import pastaImg from "../../assets/imgs/pastaImg.jpg";
 import saladImg from "../../assets/imgs/saladImg.jpg";
 import muffinImg from "../../assets/imgs/muffinImg.jpg";
 import smoothieImg from "../../assets/imgs/smoothieImg.jpg";
+import blogPost1 from "../../assets/imgs/blogPost1.jpg";
+import blogPost2 from "../../assets/imgs/blogPost2.jpg";
+import blogPost3 from "../../assets/imgs/blogPost3.jpg";
+import blogPost4 from "../../assets/imgs/blogPost4.jpg";
+import blogPost5 from "../../assets/imgs/blogPost5.jpg";
+import blogPost6 from "../../assets/imgs/blogPost6.jpg";
+
+const generator = new AvatarGenerator();
 
 export const navbarLinks = [
   {
@@ -294,6 +303,129 @@ export const blogLatestPosts = [
     paragraph:
       "In our coffee shop, I found not just great brews but also cherished moments, where conversations flowed as easily as our espresso.",
     img: coffeeDate,
+  },
+];
+
+export const blogPosts = [
+  {
+    date: "November 8, 2018",
+    title: "A Sip of Serenity",
+    paragraph:
+      "I took a moment to enjoy the serenity of our coffee shop, sipping on a warm brew while soaking in the soothing ambiance.",
+    img: coffeeSerenity,
+    avatar: generator.generateRandomAvatar(),
+    name: "Eleanor Smith",
+  },
+  {
+    date: "June 20, 2017",
+    title: "Bean Magic Unveiled",
+    paragraph:
+      "Each cup at our coffee shop is a journey through flavors, revealing the magic that lies within every perfectly roasted bean.",
+    img: coffeeBeans,
+    avatar: generator.generateRandomAvatar(),
+    name: "James Anderson",
+  },
+  {
+    date: "August 5, 2016",
+    title: "Coffee and Connection",
+    paragraph:
+      "In our coffee shop, I found not just great brews but also cherished moments, where conversations flowed as easily as our espresso.",
+    img: coffeeDate,
+    avatar: generator.generateRandomAvatar(),
+    name: "Sophia Ramirez",
+  },
+  {
+    date: "March 30, 2019",
+    title: "Mornings at {FinSweet Coffee",
+    paragraph:
+      "Starting the day with a cup of our finest brew is like a daily ritual, a delightful habit that brightens each morning.",
+    img: blogPost1,
+    avatar: generator.generateRandomAvatar(),
+    name: "David Williams",
+  },
+  {
+    date: "September 12, 2016",
+    title: "The Art of Latte",
+    paragraph:
+      "Explore the delicate art of crafting the perfect latte, from frothing milk to creating exquisite latte art designs.",
+    img: blogPost2,
+    avatar: generator.generateRandomAvatar(),
+    name: "Olivia Turner",
+  },
+  {
+    date: "April 5, 2017",
+    title: "The Secrets of Coffee Beans",
+    paragraph:
+      "Delve into the fascinating world of coffee beans, from their origins to the unique flavors they bring to your cup.",
+    img: blogPost3,
+    avatar: generator.generateRandomAvatar(),
+    name: "Michael Johnson",
+  },
+  {
+    date: "July 15, 2015",
+    title: "Exploring Espresso Varieties",
+    paragraph:
+      "Discover the diverse world of espresso and the various types of espresso beverages that tantalize your taste buds.",
+    img: blogPost4,
+    avatar: generator.generateRandomAvatar(),
+    name: "Sophie Clark",
+  },
+  {
+    date: "November 8, 2016",
+    title: "Caffeine and Creativity",
+    paragraph:
+      "Uncover the intriguing connection between caffeine and creativity, and how a cup of coffee can spark your imagination.",
+    img: blogPost5,
+    avatar: generator.generateRandomAvatar(),
+    name: "Daniel Martin",
+  },
+  {
+    date: "January 20, 2015",
+    title: "Coffee and Culinary Pairing",
+    paragraph:
+      "Experience the delightful world of coffee and culinary pairing, where the perfect coffee complements your favorite dishes.",
+    img: blogPost6,
+    avatar: generator.generateRandomAvatar(),
+    name: "Mia Hernandez",
+  },
+];
+
+export const articles = [
+  {
+    date: "February 5, 2024",
+    title: "The Art of Coffee Roasting",
+    paragraph:
+      "Explore the intricate process of coffee bean roasting, from the source to the perfect roast that delights your taste buds.",
+    // img: articleRoasting,
+    avatar: generator.generateRandomAvatar(),
+    name: "Emily Thompson",
+  },
+  {
+    date: "March 20, 2024",
+    title: "Crafting Unique Espresso Blends",
+    paragraph:
+      "Discover the secrets behind creating distinct espresso blends, combining various beans for a truly exceptional coffee experience.",
+    // img: articleEspresso,
+    avatar: generator.generateRandomAvatar(),
+    name: "William Harris",
+  },
+  {
+    date: "April 10, 2024",
+    title: "The Coffee Shop Story",
+    paragraph:
+      "Dive into the history and journey of {FinSweet Coffee, the place where great coffee and unforgettable moments intertwine.",
+    // img: articleStory,
+    avatar: generator.generateRandomAvatar(),
+    name: "Linda Robinson",
+  },
+  {
+    date: "May 15, 2024",
+    title: "Sustainability in Coffee Culture",
+    paragraph:
+      "Learn about our commitment to sustainability, from sourcing to brewing, and how we contribute to a greener coffee industry.",
+    // img: articleSustainability,
+    avatar: generator.generateRandomAvatar(),
+    name: "Daniel Brown",
   },
 ];
 

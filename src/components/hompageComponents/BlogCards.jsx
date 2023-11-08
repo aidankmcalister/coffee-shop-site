@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom"; // Import Link
-import { blogLatestPosts } from "../constants/constants";
+import { Link } from "react-router-dom";
+import { blogPosts } from "../constants/constants";
 import {
   Card,
   CardHeader,
@@ -9,6 +9,12 @@ import {
 } from "@material-tailwind/react";
 
 const BlogCards = () => {
+  const sortedBlogPosts = blogPosts.sort(
+    (a, b) => new Date(b.date) - new Date(a.date)
+  );
+
+  const blogLatestPosts = sortedBlogPosts.slice(0, 3);
+
   return (
     <div className="flex flex-col items-center md:mx-auto m-4 lg:max-w-[80%] md:max-w-[80%] my-10">
       <h1 className="font-playfair text-4xl font-bold w-full">
