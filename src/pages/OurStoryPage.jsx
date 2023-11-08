@@ -1,7 +1,13 @@
-import React from "react";
+import OurStoryCard from "../components/OurStoryCard";
+import MapCard from "../components/hompageComponents/MapCard";
 
 const OurStoryPage = () => {
-  return <div>OurStoryPage</div>;
+  return (
+    <div>
+      <OurStoryCard />
+      <MapCard />
+    </div>
+  );
 };
 
 export default OurStoryPage;
