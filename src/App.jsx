@@ -22,7 +22,6 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/ourstory" element={<OurStoryPage />} />
           <Route path="/blog" element={<BlogPage />} />
-          <Route path="/bloginner" element={<BlogInnerPage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
         <Footer />
