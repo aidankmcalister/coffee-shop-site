@@ -2,7 +2,6 @@ import React from "react";
 import MapCard from "../components/hompageComponents/MapCard";
 import DualImg from "../components/contactpageComponents/DualImg";
 import ContactForm from "../components/contactpageComponents/ContactForm";
-import coffeeContactImg from "../assets/imgs/coffeeContact.jpg";
 
 const ContactPage = () => {
   return (

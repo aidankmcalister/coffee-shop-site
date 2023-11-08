@@ -4,7 +4,7 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import BlogPage from "./pages/BlogPage";
-import BlogInnerPage from "./pages/BlogInnerPage";
+
 import MenuPage from "./pages/MenuPage";
 import OurStoryPage from "./pages/OurStoryPage";
 import "./App.css";
